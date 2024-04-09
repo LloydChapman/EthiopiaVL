@@ -1,11 +1,10 @@
-# library(pzfx)
 library(readxl)
 library(data.table)
 library(irr)
 library(ggplot2)
 library(cowplot)
 
-# dat <- read_pzfx("FC all.pzfx")
+## LOAD DATA ##
 dat_raw <- as.data.table(read_xlsx("rawdata.xlsx",skip = 1))
 
 # Change column names
